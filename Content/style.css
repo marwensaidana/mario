@@ -1,0 +1,55 @@
+﻿
+
+.game {
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+	background-image: url('backgrounds/01.jpg');
+	background-size: 70%;
+	z-index: 0
+}
+
+.mario{
+	width:5%;
+	height:10%;
+	position:absolute;
+	left:10px;
+	bottom: 220px;
+	overflow:hidden;
+	display:block;
+	z-index:5;
+}
+.coins1{
+
+left:400px;
+bottom:240px;
+}
+.coins2{
+
+left:800px;
+bottom:270px;
+}
+.coins3{
+
+left:850px;
+bottom:270px;
+}
+.coins4{
+
+left:1100px;
+bottom:250px;
+}
+.coins5{
+
+left:1200px;
+bottom:230px;
+}
+
+
+
+.coins img{
+	width: 30px;
+	height:40px;
+	z-index: -1;
+	position: absolute;
+}
